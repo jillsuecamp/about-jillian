@@ -21,3 +21,18 @@ body {
   font-size: 40px;
   color: brown;
 }
+
+.hyperlink a { 
+  color: rgb(217, 217, 220);
+  font-size: 30px;
+}
+
+.previous a { 
+  color: rgb(217, 217, 220);
+  font-size: 20px;
+}
+
+.next a { 
+  color: rgb(217, 217, 220);
+  font-size: 20px;
+}
