@@ -1,8 +1,15 @@
+body {
+  font: "Arial", sans-serif;
+  backgroud-color: rgb(168, 189, 186);
+}
+
 .center {
   width: 512px; 
   height: 384px;
   display: block;
   margin: 0 auto;
+  padding: 8px;
+  background-color: white;
 }
 
 .container {
@@ -12,4 +19,5 @@
   align-items: center;
   text-align: center;
   font-size: 40px;
+  color: white;
 }
