@@ -30,9 +30,15 @@ body {
 .previous a { 
   color: rgb(217, 217, 220);
   font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 30px;
 }
 
 .next a { 
   color: rgb(217, 217, 220);
   font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 30px;
 }
