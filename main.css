@@ -1,6 +1,5 @@
 body {
-  font: "Arial", sans-serif;
-  backgroud-color: rgb(168, 189, 186);
+  font: "Baskerville", serif;
 }
 
 .center {
@@ -41,4 +40,9 @@ body {
   display: flex;
   align-items: flex-start;
   margin-left: 30px;
+}
+
+.about a {
+  color: rgb(77, 55, 47);
+  font-size: 20px;
 }
