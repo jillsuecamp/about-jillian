@@ -46,3 +46,8 @@ body {
   color: rgb(77, 55, 47);
   font-size: 20px;
 }
+
+.list { 
+  font-size: 14px;
+  color:rgb(217, 217, 220);
+}
