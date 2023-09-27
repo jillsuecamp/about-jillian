@@ -88,11 +88,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: xx-small;
 }
 a.site-logo {
-  font-size: 10px;
-  font-weight: 800;
+  font-size: 50px;
   color: #fff;
   text-decoration: none;
 }
@@ -104,8 +102,7 @@ a.site-logo {
 }
 .site-navbar ul li a {
   color: #fff;
-  padding: 10px;
-  font-size:x-small;
+  padding: 20px;
   display: block;
   text-decoration: none;
 }
