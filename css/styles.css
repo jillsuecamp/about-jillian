@@ -64,7 +64,7 @@ body {
   box-sizing: border-box;
 }
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Georgia', 'Times New Roman', 'Times', serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -76,25 +76,23 @@ body{
   padding: 0 15px;
 }
 .header-area {
-  background: rgb(217, 217, 220);
-  background-position: center center;
-  background-size: cover;
+  background: rgb(168, 189, 186);
 }
 
 * navbar regular css start */
 .navbar-area {
-  background: rgba(0,0,0,.6);
+  background: rgb(168, 189, 186);
   border-bottom: 1px solid #000;
 }
 .site-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: xx-small;
 }
 a.site-logo {
-  font-size: 26px;
+  font-size: 10px;
   font-weight: 800;
-  text-transform: uppercase;
   color: #fff;
   text-decoration: none;
 }
@@ -106,35 +104,16 @@ a.site-logo {
 }
 .site-navbar ul li a {
   color: #fff;
-  padding: 20px;
+  padding: 10px;
+  font-size:x-small;
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .site-navbar ul li a:hover {
-  background: rgba(255,255,255,.1);
+  background: rgba(170, 226, 240, 0.1);
 }
 /* navbar regular css end */
 
-
-/* intro-area css start */
-.intro-area {
-  height: calc(100vh - 61px);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-.intro-area h2 {
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-.intro-area p {
-  font-size: 18px;
-}
-/* intro-area css end */
 
 
 
