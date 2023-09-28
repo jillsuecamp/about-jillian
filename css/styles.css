@@ -34,12 +34,16 @@ body {
 
 
 .list { 
-  font-size: 25px;
+  font-size: 20px;
   color:rgb(77, 55, 47);
   display:flex;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
   text-align:center;
+}
+
+.list ul { 
+  text-align: left;
 }
 
 .para {
