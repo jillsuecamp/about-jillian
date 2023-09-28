@@ -37,7 +37,9 @@ body {
   font-size: 25px;
   color:rgb(77, 55, 47);
   display:flex;
-  align-items: flex-start;
+  align-items: center;
+  padding: 20px;
+  text-align:center;
 }
 
 .para {
