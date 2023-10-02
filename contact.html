@@ -23,9 +23,9 @@
       const email = emailInput.value;
       const phoneInput = form.querySelector('input[name="user_phone"]');
       const phone = phoneInput.value;
-      const fnameInput = form.querySelector('input[name="fname"]');
+      const fnameInput = form.querySelector('input[name="user_fname"]');
       const firstname = fnameInput.value;
-      const lnameInput = form.querySelector('input[name="lname"]');
+      const lnameInput = form.querySelector('input[name="user_lname"]');
       const lastname = lnameInput.value;
 
       // If all fields are valid.... 
@@ -95,8 +95,6 @@
 <body style="background-color:white">
   <div class="container">
     <h1 style="color: rgb(77, 55, 47)">Contact Me ✽</h1>
-
-    <body>
         <form id="contact-form">
             <input type="hidden" name="contact_number">
             <label>Last Name</label>
@@ -111,7 +109,6 @@
             <textarea name="user_message"></textarea>
             <input type="submit" value="Send">
         </form>
-    </body>
 </body>
 
 </html>
