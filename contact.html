@@ -50,17 +50,17 @@
       }
         // If phone is not valid
       else if (!validatePhoneNumber(phone)) {
-        
+        console.log('Invalid phone number.');
 
       }
       // If first name is null
       else if (!isNotNull(lastname)){
-
+        console.log('Last name null.');
       }
 
       //If last name is null 
       else if (!isNotNull(firstname)) {
-
+        console.log('First name null.')
       }
 
     }
@@ -99,9 +99,9 @@
     <body>
         <form id="contact-form">
             <input type="hidden" name="contact_number">
-            <label>First Name</label>
-            <input type="text" name="user_lname">
             <label>Last Name</label>
+            <input type="text" name="user_lname">
+            <label>First Name</label>
             <input type="text" name="user_fname">
             <label>Email</label>
             <input type="text" name="user_email">
