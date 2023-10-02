@@ -29,6 +29,16 @@
       const lastname = lnameInput.value;
       form.contact_number.value = Math.random() * 100000 | 0;
 
+      form.contact_number.value = Math.random() * 100000 | 0;
+
+        emailjs.sendForm('contact_service', 'contact_form', form)
+          .then(function() {
+            console.log('SUCCESS!');
+          })
+          .catch(function(error) {
+            console.log('FAILED...', error);
+        });
+
       // If all fields are valid.... 
       if (validateEmail(email) && validatePhoneNumber(phone) && isNotNull(firstname) && isNotNull(lastname)) {
         // then proceed with sending.
