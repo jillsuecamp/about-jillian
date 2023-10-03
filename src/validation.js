@@ -13,6 +13,3 @@ function validatePhoneNumber(phoneNumber) {
   }
  
 window.validatePhoneNumber = validatePhoneNumber;
-
-
-  
