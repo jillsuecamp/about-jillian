@@ -13,3 +13,9 @@ function validatePhoneNumber(phoneNumber) {
   }
  
 window.validatePhoneNumber = validatePhoneNumber;
+
+function isNotNull(value) {
+  return value !== null && value.trim() !== "" ;
+}
+
+window.isNotNull = isNotNull
