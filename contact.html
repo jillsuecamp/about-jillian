@@ -43,14 +43,19 @@
             console.log('FAILED...', error);
           });
           // If email is not valid
-      } else if (!validateEmail(email)) {
+      } 
+      else if (!validateEmail(email) && !validatePhoneNumber(phone)){
+        window.alert("Please enter an email in the format xyz@<domain>.<top-level domain> and a phone number in the format 123-4567-890")
+      }
+
+      else if (!validateEmail(email)) {
         // Email is invalid, show an error message or take appropriate action
         window.alert("Please enter an email in the format xyz@<domain>.<top-level domain> ");
         // You can display an error message or handle it as needed
       }
         // If phone is not valid
       else if (!validatePhoneNumber(phone)) {
-        window.alert("Please enter a phone number in the format 123-4567-890")
+        window.alert("Please enter a phone number in the format 123-456-7890")
 
       }
 
