@@ -12,6 +12,7 @@ body {
 }
 
 
+
 /* Styles for the modal */
 .modal {
     display: none;
@@ -155,6 +156,49 @@ body{
   background: rgb(168, 189, 186);
   border-bottom: 1px solid #000;
 }
+
+/* class links dropdown */
+
+.dropdown {
+  display: none;
+  position: absolute;
+  border: none;
+  width: 10%;
+  overflow: auto;
+}
+
+.dropdown a {
+  display: block;
+  color: rgb(77, 55, 47);
+  background-color: rgb(168, 189, 186);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: rgb(178, 198, 195);
+  color:rgb(77, 55, 47);
+}
+
+
+
+.navtext-drop {
+  float:left;
+  color: #fff;
+  padding: 30px;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+}
+
+.navtext-drop:hover .dropdown {
+  display:block;
+}
+
+
+
+
+
 .site-navbar {
   display: flex;
   justify-content: space-between;
