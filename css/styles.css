@@ -5,9 +5,11 @@ body {
 .image {
   width: 322px; 
   height: 322px;
-  margin: 0 auto;
+  margin-right: 20rem;
+  margin-top: 5rem;
   border: 7px solid rgb(77, 55, 47);
   border-radius: 50%;
+  z-index: 2;
 }
 
 
@@ -43,8 +45,8 @@ body {
 
 .resume-button {
   display: inline-block;
-  height: 60px;
-  width: 120px;
+  height: 65px;
+  width: 160px;
   background-color: rgb(168, 189, 186); 
   color: #fff; 
   border: none;
@@ -52,13 +54,13 @@ body {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-
   font-family:'Georgia', 'Times New Roman', 'Times', serif;
   font-size: 25px;
   z-index: 1;
-  margin-left: 10rem;
-  padding-top: 2rem;
+  margin-left: 15rem;
+  margin-top: 5rem;
   padding-left: 0rem;
+  padding-top: 0rem;
 }
 
 .container {
@@ -74,6 +76,12 @@ body {
   margin-left: auto;
 }
 
+.body-content h2 { 
+  margin-left: 
+
+
+}
+
 .body-content {
   display: flex;
   justify-content: flex-end;
@@ -83,22 +91,43 @@ body {
   position: relative;
 }
 
+.body-contacts {
+  position: relative;
+}
+
 .text1 { 
-  font-size: 50px;
-  margin-left: 10rem;
+  font-size: 65px;
+  margin-left: 15rem;
   margin-top: 5rem;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
   z-index: 3;
 }
 
 .text2 { 
   z-index: 2;
   font-size: 20px;
-  margin-left: 10rem;
+  margin-left: 15rem;
+  margin-right: 4rem;
   padding-top: 2rem;
   padding-left: 0rem;
-  color:rgb(77, 55, 47);
+  padding-right: 0rem;
+  color:rgb(125, 90, 78);
+  font-weight: lighter;
 
 }
+
+.icons {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 75px); 
+  grid-gap: 1px; 
+  margin-right: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 7rem;
+}
+
 
 
 
@@ -148,8 +177,10 @@ input[type="submit"] {
 
 
 .container h2 { 
-  padding: 4px;
   font-size: 20px;
+  margin-left: 10rem;
+  margin-right: 50rem;
+  overflow: auto;
 }
 
 
