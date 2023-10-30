@@ -2,13 +2,12 @@ body {
   font: "Baskerville", serif;
 }
 
-.center {
-  width: 512px; 
-  height: 384px;
-  display: block;
+.image {
+  width: 322px; 
+  height: 322px;
   margin: 0 auto;
-  padding: 8px;
-  background-color: white;
+  border: 7px solid rgb(77, 55, 47);
+  border-radius: 50%;
 }
 
 
@@ -42,6 +41,25 @@ body {
 }
 
 
+.resume-button {
+  display: inline-block;
+  height: 60px;
+  width: 120px;
+  background-color: rgb(168, 189, 186); 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  font-family:'Georgia', 'Times New Roman', 'Times', serif;
+  font-size: 25px;
+  z-index: 1;
+  margin-left: 10rem;
+  padding-top: 2rem;
+  padding-left: 0rem;
+}
 
 .container {
   flex-direction: column;
@@ -51,6 +69,38 @@ body {
   text-align: center;
   color: brown;
 }
+
+.body-content img{ 
+  margin-left: auto;
+}
+
+.body-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.body-text { 
+  position: relative;
+}
+
+.text1 { 
+  font-size: 50px;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  z-index: 3;
+}
+
+.text2 { 
+  z-index: 2;
+  font-size: 20px;
+  margin-left: 10rem;
+  padding-top: 2rem;
+  padding-left: 0rem;
+  color:rgb(77, 55, 47);
+
+}
+
+
 
 .form-group {
   text-align: center;
@@ -184,7 +234,7 @@ body{
 
 .navtext-drop {
   float:left;
-  color: #fff;
+  color: rgb(225, 243, 240);
   padding: 30px;
   font-size: 30px;
   display: block;
@@ -195,6 +245,13 @@ body{
   display:block;
 }
 
+.nav-home a {
+  color:#fff !important;
+}
+
+.nav-contact a { 
+  color:#fff !important;
+}
 
 
 
@@ -206,7 +263,7 @@ body{
 }
 a.site-logo {
   font-size: 50px;
-  color: #fff;
+  color: rgb(225, 243, 240);
   text-decoration: none;
 }
 .site-navbar ul {
@@ -216,7 +273,7 @@ a.site-logo {
   display: flex;
 }
 .site-navbar ul li a {
-  color: #fff;
+  color: rgb(204, 229, 225);
   padding: 30px;
   font-size: 30px;
   display: block;
