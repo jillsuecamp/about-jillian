@@ -58,9 +58,10 @@ body {
   font-size: 25px;
   z-index: 1;
   margin-left: 15rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding-left: 0rem;
   padding-top: 0rem;
+  line-height: 65px;
 }
 
 .container {
@@ -97,9 +98,9 @@ body {
 }
 
 .text1 { 
-  font-size: 65px;
+  font-size: 70px;
   margin-left: 15rem;
-  margin-top: 5rem;
+  margin-top: 6rem;
   padding-top: 2rem;
   padding-left: 0rem;
   padding-right: 0rem;
@@ -111,11 +112,12 @@ body {
   font-size: 20px;
   margin-left: 15rem;
   margin-right: 4rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-left: 0rem;
   padding-right: 0rem;
   color:rgb(125, 90, 78);
   font-weight: lighter;
+  line-height: 1.5;
 
 }
 
