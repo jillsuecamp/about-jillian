@@ -89,6 +89,7 @@ body {
 
 .body-text { 
   position: relative;
+  margin-top: 20rem;
 }
 
 .body-contacts {
@@ -123,9 +124,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 75px); 
   grid-gap: 1px; 
-  margin-right: 1rem;
+  margin-left: 4rem;
   margin-bottom: 0rem;
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 
