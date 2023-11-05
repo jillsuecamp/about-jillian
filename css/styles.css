@@ -13,7 +13,6 @@ body {
 }
 
 
-
 /* Styles for the modal */
 .modal {
     display: none;
@@ -261,6 +260,7 @@ body{
 
 
 
+
 .navtext-drop {
   float:left;
   color: rgb(225, 243, 240);
@@ -318,5 +318,30 @@ a.site-logo {
 /* navbar regular css end */
 
 
+
+/* Projects */
+.projects-header { 
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 3rem;
+  color:rgb(77, 55, 47);
+
+}
+
+.row { 
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 50% 50%;
+  background-color: rgb(192, 218, 214);
+}
+
+.box { 
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
 
 
